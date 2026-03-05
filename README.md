@@ -59,8 +59,8 @@ Mērķis ir **veidot izpratni par tehnoloģiju priekšrocībām un iespējām n�
 ---
 
 ## 👥 Komanda
-| Vārds | Loma |
-|--------|-------|
+| Vārds | 2. vards |
+|Iļja|Arturs|
 | **IERAKSTIET SAVU VĀRDU** | Projekta autors |
 | **IERAKSTIET KOMANDAS BIEDRU VĀRDUS** | Dizains, dokumentācija, testēšana |
 
