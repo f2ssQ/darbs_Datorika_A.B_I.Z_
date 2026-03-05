@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Medicīnisks raksts</title>
+<link href="https://fonts.googleapis.com/css2?family=Georgia:wght@400;700&family=Roboto&display=swap" rel="stylesheet">
+<style>
+:root {
+    --primary-color: #0a3d62;
+    --secondary-color: #145a86;
+    --bg-color: #eef3f7;
+    --text-color: #333;
+}
+body { margin:0; font-family:'Georgia', serif; background:var(--bg-color); }
+.page { max-width:900px; margin:60px auto; background:white; padding:0 60px 60px; box-shadow:0 4px 20px rgba(0,0,0,0.1); border-radius:12px; }
+nav { background:var(--primary-color); padding:15px 0; }
+nav ul { list-style:none; margin:0; padding:0 60px; display:flex; gap:30px; }
+nav a { color:white; text-decoration:none; font-size:18px; transition:color 0.3s ease; }
+nav a:hover { color:var(--secondary-color); }
+.cover img { width:100%; height:360px; object-fit:cover; margin-bottom:40px; border-radius:8px 8px 0 0; margin-top:0; }
+h1 { font-size:34px; margin-bottom:25px; color:var(--primary-color); font-family:'Roboto', sans-serif; }
+h2 { margin-top:40px; color:var(--secondary-color); font-size:24px; font-family:'Roboto', sans-serif; }
+p { font-size:18px; line-height:1.9; margin-bottom:20px; color:var(--text-color); }
+@media (max-width: 768px) {
+    .page { padding:0 30px 30px; }
+    nav ul { padding:0 30px; flex-direction:column; gap:15px; }
+    h1 { font-size:28px; }
+    .cover img { height:250px; }
+}
+</style>
+</head>
+
+<body>
+<div class="page">
+
+<nav>
+<ul>
+<li><a href="landing.html">Sākums</a></li>
+<li><a href="about.html">Par mums</a></li>
+<li><a href="article.html">Raksts</a></li>
+<li><a href="product.html">Veselības pakete</a></li>
+</ul>
+</nav>
+
+<div class="cover">
+<img src="https://images.unsplash.com/photo-1581594693702-fbdc51b2763b?auto=format&fit=crop&w=1000&q=80" alt="Ārsta konsultācija">
+</div>
+
+<h1>Profilaktiskās medicīnas nozīme</h1>
+
+<p>Profilaktiskā veselības aprūpe palīdz savlaicīgi atklāt slimības un novērst nopietnas komplikācijas.</p>
+
+<p>Regulāras pārbaudes un laboratoriskie izmeklējumi būtiski uzlabo ārstēšanas efektivitāti.</p>
+
+<h2>Modernā diagnostika</h2>
+<p>Ultrasonogrāfija, magnētiskā rezonanse un EKG nodrošina precīzu veselības stāvokļa novērtējumu.</p>
+
+<h2>Veselīga dzīvesveida nozīme</h2>
+<p>Sabalansēts uzturs, fiziskās aktivitātes un regulāras ārsta vizītes palīdz uzturēt labu veselību.</p>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pilsētas Medicīnas Centrs</title>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+<style>
+:root {
+    --primary-color: #0a3d62;
+    --secondary-color: #145a86;
+    --bg-color: #eef3f7;
+    --text-color: #333;
+}
+
+body { margin:0; font-family:'Roboto', sans-serif; background:var(--bg-color); }
+
+.page {
+    max-width:1200px;
+    margin:40px auto;
+    background:white;
+    box-shadow:0 4px 20px rgba(0,0,0,0.1);
+    border-radius:12px;
+    overflow:hidden;
+}
+
+nav {
+    background:var(--primary-color);
+    padding:15px 60px;
+}
+
+nav ul {
+    list-style:none;
+    margin:0;
+    padding:0;
+    display:flex;
+    gap:30px;
+}
+
+nav a {
+    color:white;
+    text-decoration:none;
+    font-size:18px;
+    transition:color 0.3s ease;
+}
+
+nav a:hover {
+    color:var(--secondary-color);
+}
+
+.hero {
+    display:flex;
+    position:relative;
+}
+
+.hero img {
+    width:60%;
+    height:600px;
+    object-fit:cover;
+}
+
+.hero-text {
+    padding:60px;
+    width:40%;
+    background:linear-gradient(to right, rgba(255,255,255,0.9), rgba(255,255,255,0.7));
+}
+
+h1 { font-size:42px; margin-bottom:20px; color:var(--primary-color); }
+p { font-size:18px; line-height:1.6; color:var(--text-color); }
+
+.button {
+    display:inline-block;
+    padding:15px 30px;
+    background:var(--primary-color);
+    color:white;
+    text-decoration:none;
+    margin-top:30px;
+    border-radius:6px;
+    transition:background 0.3s ease, transform 0.3s ease;
+}
+
+.button:hover {
+    background:var(--secondary-color);
+    transform:translateY(-2px);
+}
+
+@media (max-width: 768px) {
+    .hero { flex-direction:column; }
+    .hero img, .hero-text { width:100%; height:auto; padding:30px; }
+    h1 { font-size:32px; }
+    nav { padding:15px 30px; }
+    nav ul { flex-direction:column; gap:15px; }
+}
+</style>
+</head>
+
+<body>
+<div class="page">
+
+<nav>
+<ul>
+<li><a href="landing.html">Sākums</a></li>
+<li><a href="about.html">Par mums</a></li>
+<li><a href="article.html">Raksts</a></li>
+<li><a href="product.html">Veselības pakete</a></li>
+</ul>
+</nav>
+
+<div class="hero">
+<img src="https://images.unsplash.com/photo-1586773860418-d37222d8fce3?auto=format&fit=crop&w=900&q=80" alt="Slimnīca">
+
+<div class="hero-text">
+<h1>Pilsētas Medicīnas Centrs</h1>
+<p>Profesionāli veselības aprūpes pakalpojumi ar modernām tehnoloģijām un pieredzējušiem ārstiem.</p>
+<a href="about.html" class="button">Uzzināt vairāk</a>
+</div>
+</div>
+
+</div>
+</body>
+</html>
